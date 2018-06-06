@@ -43,7 +43,7 @@ button:active{
     padding-bottom: 10vh;
 }
 
-#patient{
+#sysFun{
     background: url('../images/patient.svg');
     background-position:center;
     background-repeat:no-repeat;
@@ -51,7 +51,7 @@ button:active{
     background-color: #358ec7;
 }
 
-#parts{
+#userInt{
     background: url('../images/parts.svg');
     background-position:center;
     background-repeat:no-repeat;
@@ -59,7 +59,7 @@ button:active{
     background-color: #358ec7;
 }
 
-#pre{
+#dashboard{
     background: url('../images/precaution.svg');
     background-position:center;
     background-repeat:no-repeat;
@@ -67,7 +67,7 @@ button:active{
     background-color: #358ec7;
 }
 
-#video{
+#reference{
     background: url('../images/video.svg');
     background-position:center;
     background-repeat:no-repeat;
@@ -75,7 +75,7 @@ button:active{
     background-color: #358ec7;
 }
 
-#fit{
+#admin{
     background: url('../images/fitting.svg');
     background-position:center;
     background-repeat:no-repeat;
@@ -99,11 +99,7 @@ p{
 
 /* Fitting page */
 #patientHarness {
-    background: url('../images/fitting/patientharness.svg');
-    background-position:center;
-    background-repeat:no-repeat;
-    background-size: 1000px 1000px;
-    width: 100vw;
-    height: 100px;
-
+    border-bottom: 2px solid #358ec7;
+    color:rgba(4, 112, 185, 1);
+    text-align: left;
 }
