@@ -33,7 +33,7 @@ button{
 button:focus{
     outline:0;
 }
-button:hover{
+button:active{
     box-shadow: 0 5px grey;
     transform: translateY(4px);
 }
