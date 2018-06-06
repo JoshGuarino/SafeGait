@@ -20,17 +20,74 @@ footer{
     width: 100%;
     height: 15vh;
     background-color: white;
-    padding-top: 2vh;
+    padding-top: 3vh;
 }
 
 button{
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    border: 0px;
+    border: 2.5px solid black;
 }
-
+button:focus{
+    outline:0;
+}
 
 #title{
     padding-bottom: 10vh;
 }
+
+#patient{
+    background: url('../images/patient.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+#parts{
+    background: url('../images/parts.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+#pre{
+    background: url('../images/precaution.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+#video{
+    background: url('../images/video.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+#fit{
+    background: url('../images/fitting.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+#contact{
+    background: url('../images/contact.svg');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size: 75px 75px;
+    background-color: #358ec7;
+}
+
+
+p{
+    font-size: 1.5vh;
+}
+
+
