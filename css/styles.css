@@ -25,8 +25,8 @@ footer{
 }
 
 button{
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
     border: 2.5px solid black;
 }
@@ -38,6 +38,9 @@ button:active{
     transform: translateY(4px);
 }
 
+.harnessPhoto, #harnessPhoto{
+width: 80%;
+}
 
 #title{
     padding-bottom: 10vh;
@@ -48,7 +51,7 @@ button:active{
     background: url('../images/patient.svg');
     background-position:center;
     background-repeat:no-repeat;
-    background-size: 75px 75px;
+    background-size: 50px 50px;
     background-color: #358ec7;
 }
 
@@ -119,15 +122,86 @@ p{
     padding-top: 5vh;
 }
 
-@media screen and (max-width: 992px) {
-    .harnessPhoto{
-        height: 200px;
-        width: 200px;
+@media screen and (max-width: 992px) { 
+    h3{
+        font-size: 2vh;
     }
+    .harnessPhoto, #harnessPhoto{
+        display: none;
+        visibility: hidden;
+        }
+        #admin{
+            margin-top: initial;
+            
+        }
+        #dashboard{
+            margin-top: initial;   
+        }
 
-    
+}
+@media screen and (max-width: 480px) {
+    #title{
+        height: 10%;
+        padding-bottom: initial;
+    }
+    .gorbelPhoto{
+        width: 50%;
+    }
+    h3 {
+        font-size: 2vh;
+    }
+    h1 {
+        font-size: 3vh;
+    }
 .safeGaitLogo{
     width: 150px;
+    }
+
+    .harnessPhoto, #harnessPhoto{
+        display: none;
+        visibility: hidden;
+    }
+
+    #setup{
+        background-size: 30px 30px;
+    }
+    
+    #dashboard{
+        background-size: 30px 30px;
+        margin-top: initial;
+    }
+    
+    #userInt{
+        background-size: 30px 30px;
+    }
+    
+    #sysFun{
+        background-size: 30px 30px;
+    }
+    
+    #admin{
+        background-size: 30px 30px;
+        margin-top: initial;
+        
+    }
+    
+    #reference{
+        background-size: 30px 30px;
+    }
+    
+    #troubleshoot{
+        background-size: 30px 30px;
+    }
+    
+    #contact{
+        background-size: 30px 30px;
+    }
+    
+    button{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 2.5px solid black;
     }
     
 }
