@@ -17,74 +17,95 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-light navbar-expand-lg">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img alt="SafeGait Logo" src="images/sg_solutions_logo.png" class="safeGaitLogo">
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
-            aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="sysfun.html">System Functions</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="userinterface.html">User Interface</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="patientdash.html">Patient Setup</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="patientdash.html">Patient Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="administrator.html">Only for Administrators</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="reference.html">Reference Guide</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="troubleshoot.html">Troubleshooting and Maintenance</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contacts</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+  <nav class="navbar navbar-light navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img alt="SafeGait Logo" src="images/sg_solutions_logo.png" class="safeGaitLogo">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="sysfun.html">System Functions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="userinterface.html">User Interface</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patientdash.html">Patient Setup</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="patientdash.html">Patient Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="administrator.html">Only for Administrators</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="reference.html">Reference Guide</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="troubleshoot.html">Troubleshooting and Maintenance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    <main>
-    <div id="patientHarness">
+  <main>
+    <div id="patientHarness col-lg-12">
       <h1>User Interface</h1>
     </div>
     <h3>Create new patient screen:</h3>
-    <img src="images/user-interface/userinterface1.PNG" alt="Create new patient screen">
+    <img src="images/user-interface/userinterface1.PNG" alt="Create new patient screen" class="newPatientPhoto">
 
-    <div id="workflow">
+    <div id="workflow" col-lg-12>
       <h3>Workflow Menu:</h3>
-      <p>A menu displays along the left side of the screen, presented in workflow order from Step 1: Patient Setup
-          to Step 6: Review.<br>
-          An additional option includes HISTORICAL DATA, which may be accessed at different points in the
-          system workflow as necessary. If you are logged in as an administrative user, a MANAGE option allows
-          you to manage users and change system settings.<br>
-          The Patient Management Software restricts you from accessing screens that violate the system workflow;
-          for example, you cannot access the plan of care until you have selected a patient.</p>
-        <p>
-            1. MENU <br>
-            The MENU option at the bottom left of the screen opens a menu that displays the current user’s
-            name and the following options:<br>
-            - About: Displays the current Patient Management Software version.<br>
-            - Change Password: Change your password.<br>
-            - Log Out: Log out of the system.<br>
-            - Shutdown: Shut down the kiosk.<br>
-        </p>  
+      <p>A menu displays along the left side of the screen, presented in workflow order from Step 1: Patient Setup to Step 6:
+        Review.
+        <br> An additional option includes HISTORICAL DATA, which may be accessed at different points in the system workflow
+        as necessary. If you are logged in as an administrative user, a MANAGE option allows you to manage users and change
+        system settings.
+        <br> The Patient Management Software restricts you from accessing screens that violate the system workflow; for example,
+        you cannot access the plan of care until you have selected a patient.</p>
+      <p>
+        <strong>1. MENU </strong>
+        <br> The MENU option at the bottom left of the screen opens a menu that displays the current user’s name and the following
+        options:
+        <br>
+        <br> About: Displays the current Patient Management Software version.
+        <br> Change Password: Change your password.
+        <br> Log Out: Log out of the system.
+        <br> Shutdown: Shut down the kiosk.
+        <br>
+        <br>
+        <strong>2. Data Entry/Device Control Options</strong>
+        <br> The main section of the screen provides options for data entry and device control.
+        <br>
+        <br>
+        <strong>3. Related Operations and Navigation Controls</strong>
+        <br> Operations and navigation controls related to the main section of the screen display along the bottom of the screen.
+        The BACK button is available on most Patient Management Software screens and allows you to return to the previous
+        screen.
+      </p>
+    </div>
+    <div id="kiosk col-lg-12">
+      <h3>Kiosk vs. Handheld Remote</h3>
+      <p>
+        The kiosk and handheld remote control have similar user interfaces.
+        <br> • The handheld remote control can perform a subset of the operations that can be performed on the kiosk.
+        <br> • In general, the handheld remote control performs device control operations vs. data entry operations.
+        <br> • The procedures are the same for both devices
+        <br> • While one of the devices is in use, a TAKE CONTROL OF APPLICATION screen displays at the other device.
+        <br> • To move control from one device to the other, touch TAKE CONTROL OF APPLICATION.
+        <br>
+      </p>
       </div>
-
-
   </main>
 
   </div>

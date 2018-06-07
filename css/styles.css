@@ -12,7 +12,7 @@ main{
     width: 100%;
     background-color: rgba(199, 224, 239, 1);
     padding: 5vh;
-    text-align: center;
+    text-align: left;
     color:rgba(4, 112, 185, 1);
 }
 
@@ -132,9 +132,13 @@ p{
     
 }
 
-/* User interface page */
+
 #patientHarness {
     border-bottom: 2px solid #358ec7;
     color:rgba(4, 112, 185, 1);
     text-align: left;
+}
+
+.newPatientPhoto{
+    width: 70vw;
 }
